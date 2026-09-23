@@ -1,6 +1,6 @@
 export const company = {
   name: 'MSGA', slogan: 'Infrastructure for What Comes Next.',
-  email: 'hello@msga.kr', address: '서울특별시 강남구 테헤란로 00, 12층', business: '사업자등록번호 000-00-00000'
+  email: 'hello@msga.kr', address: '서울특별시 송파구 송이로12길 11 (송파동 171), 10층', business: '사업자등록번호 000-00-00000'
 };
 export const businesses = [
   ['01', 'Digital Infrastructure', '산업의 흐름을 끊김 없이 연결하는 견고한 디지털 기반을 설계합니다.'],

@@ -1,2 +1,5 @@
---- import { company } from '../data/site'; ---
-<footer id="news"><div class="footer-top"><a class="brand" href="#top">{company.name}<span>®</span></a><p>{company.slogan}</p></div><div class="footer-bottom"><div><p>{company.address}</p><p>{company.email} · {company.business}</p></div><div class="footer-links"><a href="#top">Instagram</a><a href="#top">LinkedIn</a><a href="#top">Github</a></div><p>© 2026 MSGA. All rights reserved.</p></div></footer>
+---
+import { company } from '../data/site';
+const base = import.meta.env.BASE_URL;
+---
+<footer id="news"><div class="footer-top"><a class="brand logo-brand footer-logo" href="#top" aria-label="MSGA 홈"><img src={`${base}images/logo.png`} alt="MSGA" /></a><p>{company.slogan}</p></div><div class="footer-bottom"><div><p>{company.address}</p><p>{company.email} · {company.business}</p></div><div class="footer-links"><a href="#top">Instagram</a><a href="#top">LinkedIn</a><a href="#top">Github</a></div><p>© 2026 MSGA. All rights reserved.</p></div></footer>
