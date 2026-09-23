@@ -1,0 +1,2 @@
+--- import { businesses } from '../data/site'; ---
+<section id="business" class="business"><div class="section-intro reveal"><p class="eyebrow">WHAT WE DO</p><h2>우리가 잘하는 일</h2><p>복잡한 문제의 중심에서, 현실적으로 작동하는 새로운 기준을 만듭니다.</p></div><div class="business-panels">{businesses.map(([number, name, text], index) => <article class:list={['business-panel','reveal', index === 0 && 'accent']}><div><span class="number">{number}</span><span class="arrow">↗</span></div><h3>{name}</h3><p>{text}</p><span class="panel-line"></span></article>)}</div></section>
