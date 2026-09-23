@@ -3,7 +3,7 @@ export const company = {
   email: 'hello@msga.kr', address: '서울특별시 송파구 송이로12길 11 (송파동 171), 10층', business: '사업자등록번호 000-00-00000'
 };
 export const businesses = [
-  ['01', 'Digital Infrastructure', '산업의 흐름을 끊김 없이 연결하는 견고한 디지털 기반을 설계합니다.'],
-  ['02', 'Data Intelligence', '흩어진 데이터를 판단 가능한 언어와 실행 가능한 통찰로 전환합니다.'],
-  ['03', 'Future Operations', '오늘의 운영을 넘어, 다음 변화까지 준비하는 조직의 리듬을 만듭니다.']
+  ['01', 'Intelligence', '분산된 정보와 변화하는 맥락을 하나의 지능형 구조 안에서 연결합니다.'],
+  ['02', 'Infrastructure', '환경이 변화하고 규모가 커질수록 더 강력하게 작동하는 유연한 기반을 만듭니다.'],
+  ['03', 'Experience', '보이지 않는 복잡성을 직관적인 경험으로 전환해 모든 접점이 자연스럽게 연결되도록 합니다.']
 ];
