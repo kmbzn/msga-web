@@ -1,6 +1,6 @@
-# MSGA Corporate Website
+# MSGA Website
 
-Astro, Tailwind CSS, GSAP ScrollTrigger, Lenis로 제작한 정적 기업 홈페이지입니다.
+Astro, Tailwind CSS, GSAP ScrollTrigger, Lenis로 제작한 정적 웹사이트입니다.
 
 ## 로컬 실행
 
